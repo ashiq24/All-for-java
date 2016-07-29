@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminLoginController">
+   <children>
+      <Label layoutX="335.0" layoutY="32.0" text="Admin Profile" textFill="#e80606">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="AdminProfile" fitHeight="173.0" fitWidth="220.0" layoutX="39.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@10458.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="652.0" layoutY="32.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
